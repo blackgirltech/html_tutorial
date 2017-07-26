@@ -19,6 +19,7 @@ Websites are built up of HTML tags containing content.
 ## First Steps
 
 So, how do you make a website?. It’s less complicated than you think:
+
 - On your computer create a folder and name it `my_site` (or something else, the name doesn’t matter)
 - Inside this folder create a file called `index.html`
 
