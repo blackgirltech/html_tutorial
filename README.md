@@ -36,7 +36,7 @@ On the first line of our html document we’ll add the following:
 <!DOCTYPE html>
 ```
 
-This informs the browser of the HTML version the document is written in.
+This tells the browser the HTML version the document is written in.
 
 ```html
 <!DOCTYPE html>
@@ -45,7 +45,7 @@ This informs the browser of the HTML version the document is written in.
 </html> 
 ```
 
-This our root HTML element all other HTML tags will be added between the opening tag `<html>` and our closing tag `</html>`.
+This is our root HTML element, all other HTML tags will be added between the opening tag `<html>` and our closing tag `</html>`.
 
 Take notice of the `/`. This needs to be included to signify the closing of a tag.
 
@@ -77,11 +77,6 @@ Next is the body, which will contain all of the visible content on our site.
     </head>
 
     <body>
-        <header>
-        </header>
-
-        <main>
-        </main>
     </body>
 </html> 
 ```
@@ -107,7 +102,7 @@ Now let’s add to our document’s `body`.
 </html>
 ```
 
-Let’s break down the above. The `<header>` tag is where we’ll have the heading of the page and our site navigation. The `<main>` tag will contain, you guessed it, the main content of the site.
+Let’s break down the above. The `<header>` tag is where we’ll have the heading of the page and our site navigation. The `<main>` tag will contain, as the name would suggest, the main content of the site.
 
 ### Adding Content
 
@@ -164,12 +159,12 @@ Next we’ll add the following mark up inside of the `<nav>`:
 
 Let’s break this down:
 
-- `<ul>` unordered list - list elements inside this an unordered list will not be numbered
+- `<ul>` unordered list - list items inside an unordered list will not be numbered
 - `<li>` list item - Used to tag every item that appears in a list
 
-The anchor tag turns whatever content inside into a hyperlink which can be used to link to other HTML documents and other elements on the page.
+The anchor tag turns it's content into a hyperlink, which can be used to link to other HTML documents as well as other elements on the page.
 
-Supply the anchor with a `href` attribute give it a web address to go to:
+Supply the `anchor` with a `href` attribute and give it a web address to go to:
 
 `<a href="https://www.google.com">This is a link to Google</a>`
 
@@ -190,7 +185,7 @@ To make things more organised, we'll use two `<div>` tags to separate our conten
 </main>
 ```
 
-We'll add text inside the first `<div>`, and an image in the other.
+We'll add text inside the first `<div>` and an `image` in the other.
 
 ```html
 <main>
@@ -223,9 +218,9 @@ The `<p>` tags are used to establish paragraphs.
 
 The `<img>` tag is a self closing tag, which means you don't need to write another `</img>` to indicate the end of the tag. Here we've given it two `attributes`:
 
-`src` points to where the location of the image you want to display. In our case, we're telling the document to look inside the `assets` folder, then the `img` folder and grab our image.
+- `src` points to the location of the image you want to display. In our case, we're telling the document to look inside the `assets` folder, then the `img` folder and grab our image.
 
-The `alt` attribute contains alternative text describing our image. This is important for people who use assitive technology such as screen readers. A screen reader will read out the `alt` text, which is invaluable for users who may have a visual impairment.
+- The `alt` attribute contains alternative text describing our image. This is important for people who use assistive technology such as screen readers. A screen reader will read out the `alt` text, which is invaluable for users who may have a visual impairment.
 
 #### Footer
 
@@ -241,7 +236,7 @@ And that's it! That's our site.
 
 ## Finishing up
 
-Open the `index.html` file in your web browser and admire your work, you've just built website.
+Open the `index.html` file in your web browser and admire your work, you've just built a website.
 
 You'll see the site looks quite bare bones and that's where `CSS` (Cascading Style Sheets) comes in. You'll use CSS to style your site and make it more pleasing on the eye. More on that in the next tutorial.
 
