@@ -1,12 +1,12 @@
 # BGT HTML Tutorial
 
 ## Why HTML?
-- Explain briefly how the internet works and what HTML documents are used for
 
-### The Web
+### The World Wide Web
+
 In order to understand HTML documents, it’s worth getting a basic understanding of how the web works. The web links documents to each other by using the infrastructure of the internet (the two should not be confused). These documents are stored on computers called servers and can be accessed by visiting the servers location through a web browser.
 
-For example, when you visit google.com in your web browser, your computer (client) is asking a server which has the google.com document to send you a copy. You then download that document to your web browser in order for you to see and interact with the page (search bar, links etc).
+For example, when you visit google.com in your web browser, your computer (client) is asking a server which has the google.com document to send you a copy of the site. You then download the document and interact with it through your web browser.
 
 This is why HTML is so important, it is the bedrock of the web.
 
@@ -17,17 +17,17 @@ These documents are written in HyperText Markup Language, or HTML, which is used
 Websites are built up of HTML tags containing content.
 
 ## First Steps
-- include any set up here
 
-So you’re probably wondering “how do I make a HTML document” or have wondered how to make a website. It’s less complicated than you think:
+So, how do you make a website?. It’s less complicated than you think:
 - On your computer create a folder and name it `my_site` (or something else, the name doesn’t matter)
 - Inside this folder create a file called `index.html`
 
-This is your HTML document. Open this file in Chrome, Firefox or your web browser of choice. You’ll see a blank page, because you haven’t put any content into it yet, but this is essentially what you’ll get when you visit any other page on the web.
+This is essentially your website. Open this file in Chrome, Firefox or your web browser of choice. You’ll see a blank page, because you haven’t put any content into it yet, but this is essentially what you’ll get when you visit any other page on the web.
 
-	
 ## Let’s Build
+
 On the first line of our html document we’ll add the following:
+
 ```html
 <!DOCTYPE html>
 ```
@@ -82,7 +82,7 @@ Next is the body, which will contain all of the visible content on our site.
 </html> 
 ```
 
-No let’s add to our document’s `body`.
+Now let’s add to our document’s `body`.
 
 ```html
 <!DOCTYPE html>
@@ -159,6 +159,7 @@ Next we’ll add the following mark up inside of the `<nav>`:
 ```
 
 Let’s break this down:
+
 - `<ul>` unordered list - list elements inside this an unordered list will not be numbered
 - `<li>` list item - Used to tag every item that appears in a list
 
@@ -171,8 +172,76 @@ Supply the anchor with a `href` attribute give it a web address to go to:
 In our case, we’re linking to three other HTML documents.
 
 #### Main
+This is where the main content of our HTML document will live.
 
+To make things more organised, we'll use two `<div>` tags to separate our content into two sections. A `<div>` is a generic container and is used primarily for styling purposes.
 
+```html
+<main>
+    <div>
+    </div>
 
-## Next Steps
-- Mention styling and adding more HTML elements
+    <div>
+    </div>
+</main>
+```
+
+We'll add text inside the first `<div>`, and an image in the other.
+
+```html
+<main>
+    <div>
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper laoreet nunc, vel lobortis quam finibus nec. Ut ligula augue, lobortis in metus ac, commodo malesuada diam.</p>
+    </div>
+
+    <div>
+    </div>
+</main>
+```
+
+Notice we use a level 2 heading (`<h2>`) here which respects the heading heirarchy. The `<h1>` we added above remains the prominent heading.
+
+The `<p>` tags are used to establish paragraphs.
+
+```html
+<main>
+    <div>
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper laoreet nunc, vel lobortis quam finibus nec. Ut ligula augue, lobortis in metus ac, commodo malesuada diam.</p>
+    </div>
+
+    <div>
+        <img src="assets/img/image.jpg" alt="a home office" />
+    </div>
+</main>
+```
+
+The `<img>` tag is a self closing tag, which means you don't need to write another `</img>` to indicate the end of the tag. Here we've given it two `attributes`:
+
+`src` points to where the location of the image you want to display. In our case, we're telling the document to look inside the `assets` folder, then the `img` folder and grab our image.
+
+The `alt` attribute contains alternative text describing our image. This is important for people who use assitive technology such as screen readers. A screen reader will read out the `alt` text, which is invaluable for users who may have a visual impairment.
+
+#### Footer
+
+```html
+<footer>
+    <p>Nunc eros augue&copy;<p>
+</footer>
+```
+
+The `<footer>` tag usually contains author details, related links and copyright information. We'll sign off with a copyright.
+
+And that's it! That's our site.
+
+## Finishing up
+
+Open the `index.html` file in your web browser and admire your work, you've just built website.
+
+You'll see the site looks quite bare bones and that's where `CSS` (Cascading Style Sheets) comes in. You'll use CSS to style your site and make it more pleasing on the eye. More on that in the next tutorial.
+
+## Bonus
+Remember those extra pages we linked to in our `navigation`? Try creating those pages so our links work.
+
+Above we're linking to `about.html`, so you can create that file and put it in the same folder as our `index.html`. Try using the tags in different ways to create your pages. You could even research other tags not covered in this tutorial and use those.
