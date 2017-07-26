@@ -24,6 +24,10 @@ So, how do you make a website?. It’s less complicated than you think:
 
 This is essentially your website. Open this file in Chrome, Firefox or your web browser of choice. You’ll see a blank page, because you haven’t put any content into it yet, but this is essentially what you’ll get when you visit any other page on the web.
 
+### Text Editor
+
+Next we'll download a text editor for us to write code in. [Sublime Text](https://www.sublimetext.com/2) suits our needs just fine.
+
 ## Let’s Build
 
 On the first line of our html document we’ll add the following:
