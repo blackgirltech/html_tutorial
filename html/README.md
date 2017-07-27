@@ -244,4 +244,4 @@ You'll see the site looks quite bare bones and that's where `CSS` (Cascading Sty
 ## Bonus
 Remember those extra pages we linked to in our `navigation`? Try creating those pages so our links work.
 
-Above we're linking to `about.html`, so you can create that file and put it in the same folder as our `index.html`. Try using the tags in different ways to create your pages. You could even research other tags not covered in this tutorial and use those.
+Above we're linking to `about.html`, so you can create that file and put it in the same folder as our `index.html`. Try using the tags in different ways to create your pages. You could even research other tags not covered in this tutorial and use those. Check our [HTML Cheatsheet](https://github.com/blackgirltech/cheatsheets/blob/master/html-cheat-sheet.md) for more.
