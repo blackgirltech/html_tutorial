@@ -120,7 +120,7 @@ Let’s break down the above. The `<header>` tag is where we’ll have the headi
 
     <body>
         <header>
-            <h1>My portfolio site<h1>
+            <h1>My portfolio site</h1>
 
             <nav>
             <nav>
