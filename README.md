@@ -21,7 +21,7 @@ Websites are built up of HTML tags containing content.
 So, let's grab our starter files:
 
 - [Click here](https://github.com/blackgirltech/html_tutorial) to visit our html tutorial repo
-- Click on the green `clone of download` button and select `Download ZIP`
+- Click on the green `Clone or download` button and select `Download ZIP`
 - Open this folder on your computer
 
 The `index.html` file is essentially your website. Open this file in Chrome, Firefox or your web browser of choice. You’ll see a blank page, because you haven’t put any content into it yet, but this is essentially what you’ll get when you visit any other page on the web.
