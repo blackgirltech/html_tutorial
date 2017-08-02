@@ -18,12 +18,13 @@ Websites are built up of HTML tags containing content.
 
 ## First Steps
 
-So, how do you make a website? It’s less complicated than you think:
+So, let's grab our starter files:
 
-- On your computer create a folder and name it `my_site` (or something else, the name doesn’t matter)
-- Inside this folder create a file called `index.html`
+- [Click here](https://github.com/blackgirltech/html_tutorial) to visit our html tutorial repo
+- Click on the green `clone of download` button and select `Download ZIP`
+- Open this folder on your computer
 
-This is essentially your website. Open this file in Chrome, Firefox or your web browser of choice. You’ll see a blank page, because you haven’t put any content into it yet, but this is essentially what you’ll get when you visit any other page on the web.
+The `index.html` file is essentially your website. Open this file in Chrome, Firefox or your web browser of choice. You’ll see a blank page, because you haven’t put any content into it yet, but this is essentially what you’ll get when you visit any other page on the web.
 
 ### Text Editor
 
