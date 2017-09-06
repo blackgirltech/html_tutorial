@@ -124,7 +124,7 @@ Let’s break down the above. The `<header>` tag is where we’ll have the headi
             <h1>My portfolio site</h1>
 
             <nav>
-            <nav>
+            </nav>
         </header>
 
         <main>
