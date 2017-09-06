@@ -124,7 +124,7 @@ Let’s break down the above. The `<header>` tag is where we’ll have the headi
             <h1>My portfolio site</h1>
 
             <nav>
-            <nav>
+            </nav>
         </header>
 
         <main>
@@ -142,17 +142,17 @@ Next we’ll add the following mark up inside of the `<nav>`:
 ```html
 <ul>
     <li>
-        <a href=“about.html”>
+        <a href="about.html">
             About
         </a>
     </li>
     <li>
-        <a href=“work.html”>
+        <a href="work.html">
             Work
         </a>
     </li>
     <li>
-        <a href=“contact.html”>
+        <a href="contact.html">
             Contact
         </a>
     </li>
